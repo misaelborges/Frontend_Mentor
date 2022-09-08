@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+div {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: 700px;
+    width: 500px;
+    margin-top: 70px;
+}
+
+div h1 {
+    width: 200px;
+    padding-left: 250px;
+    margin-top: 15px;
+    line-height: 25pt;
+}
+
+div p {
+    padding-left: 250px;
+    color: hsl(228, 12%, 48%);
+    font: normal;
+    line-height: 1.5em;
+    font-size: 15pt;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div li {
+    display: inline; 
+}
+
+div li#principal {
+    color: hsl(158, 36%, 37%);
+    font-size: 35pt;
+    padding-left: 250px;
+}
+
+div li#segundario {
+    color: hsl(158, 36%, 37%);
+    font-size: 15pt;
+    padding-left: 20px;
+}
+
+div s#linha {
+    color: grey;
+}
+    
+.btn {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px 62px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .icon-cart {
+    padding-right: 5px;
+  }
